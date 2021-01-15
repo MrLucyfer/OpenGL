@@ -20,12 +20,12 @@ project "OpenGL-Sandbox"
 		"../OpenGL-Core/vendor",
 		"../OpenGL-Core/%{IncludeDir.glm}",
 		"../OpenGL-Core/%{IncludeDir.Glad}",
-		"../OpenGL-Core/%{IncludeDir.ImGui}"
+		"../OpenGL-Core/%{IncludeDir.ImGui}",
 	}
 
 	links
 	{
-		"OpenGL-Core"
+		"OpenGL-Core",
 	}
 
 	filter "system:windows"

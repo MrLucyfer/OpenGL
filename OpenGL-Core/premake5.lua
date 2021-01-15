@@ -33,7 +33,7 @@ project "OpenGL-Core"
 		"%{IncludeDir.Glad}",
 		"%{IncludeDir.ImGui}",
 		"%{IncludeDir.glm}",
-		"%{IncludeDir.stb_image}"
+		"%{IncludeDir.stb_image}",
 	}
 
 	links 
@@ -41,7 +41,7 @@ project "OpenGL-Core"
 		"GLFW",
 		"Glad",
 		"ImGui",
-		"opengl32.lib"
+		"opengl32.lib",
 	}
 
 	filter "system:windows"

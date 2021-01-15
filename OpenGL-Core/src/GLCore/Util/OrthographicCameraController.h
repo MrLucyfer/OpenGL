@@ -27,6 +27,8 @@ namespace GLCore::Utils {
 	private:
 		float m_AspectRatio;
 		float m_ZoomLevel = 1.0f;
+		
+
 		OrthographicCamera m_Camera;
 
 		bool m_Rotation;

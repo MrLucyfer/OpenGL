@@ -61,8 +61,10 @@ namespace GLCore {
 		while (m_Running)
 		{
 			float time = (float)glfwGetTime();
+
 			Timestep timestep = time - m_LastFrameTime;
 			m_LastFrameTime = time;
+			timestep.SetTotalTime(time);
 
 			for (Layer* layer : m_LayerStack)
 				layer->OnUpdate(timestep);
