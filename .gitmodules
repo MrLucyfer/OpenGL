@@ -10,3 +10,6 @@
 [submodule "OpenGL-Core/vendor/imgui"]
 	path = OpenGL-Core/vendor/imgui
 	url = https://github.com/TheCherno/imgui
+[submodule ".\\OpenGL-Core\\vendor/assmip"]
+	path = .\\OpenGL-Core\\vendor/assmip
+	url = https://github.com/AminAliari/assimp.git
